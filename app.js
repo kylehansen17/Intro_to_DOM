@@ -20,3 +20,10 @@ for (let link of allLinks) {
 // for (let i = 0; i < span.length; i++) {
 //     span[i].style.color = color[i];
 // }
+
+
+// Creating new elements in DOM
+const newH3 = document.createElement('h3')
+
+newH3.innerText = 'I am new!'
+document.body.appendChild(newH3)
